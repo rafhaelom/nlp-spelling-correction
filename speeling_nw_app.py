@@ -62,14 +62,11 @@ qtd_caracter_corpus = len(conteudo_treino)
 qtd_palavra_corpus = len(conteudo_tokens)
 qtd_vocabulario_corpus = len(set(conteudo_tokens))
 
-st.sidebar.write("Quantidade de caracteres no corpus:")
-st.sidebar.write("[", qtd_caracter_corpus, "]")
-st.sidebar.write("Quantidade total de palvras no corpus:")
-st.sidebar.write("[", qtd_palavra_corpus, "]")
-st.sidebar.write("Quantidade total de palvras unicas no corpus (vocabulário):")
-st.sidebar.write("[", qtd_vocabulario_corpus, "]")
+st.sidebar.write("Total de caracteres no corpus: [", qtd_caracter_corpus, "]")
+st.sidebar.write("Total de palvras no corpus: [", qtd_palavra_corpus, "]")
+st.sidebar.write("Total de palvras unicas no corpus (vocabulário): [", qtd_vocabulario_corpus, "]")
 
-st.sidebar.markdown("""<p align='justify'>"Web App feito por Rafhael de Oliveira Martins<p align='justify'>""", unsafe_allow_html=True)
+st.sidebar.markdown("""<p align='justify'>Web App feito por Rafhael de Oliveira Martins<p align='justify'>""", unsafe_allow_html=True)
 st.sidebar.write("09 de Dezembro de 2022")
 st.sidebar.write("[![GitHub](https://img.shields.io/badge/-GitHub-333333?style=for-the-badge&logo=github)](https://github.com/rafhaelom)" " " "[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rafhael-martins-3bab63138)")
 
