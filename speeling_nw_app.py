@@ -35,9 +35,15 @@ import nltk
 # Sidbar menu
 st.sidebar.title("Corretor Ortográfico utilizando notícias de jornal web")
 
-st.markdown("""<p align='justify'>"Web App feito por Rafhael de Oliveira Martins<p align='justify'>""", unsafe_allow_html=True)
+st.sidebar.markdown("""<p align='justify'>"Web App feito por Rafhael de Oliveira Martins<p align='justify'>""", unsafe_allow_html=True)
 st.sidebar.write("09 de Dezembro de 2022")
 st.sidebar.write("[![GitHub](https://img.shields.io/badge/-GitHub-333333?style=for-the-badge&logo=github)](https://github.com/rafhaelom)" " " "[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rafhael-martins-3bab63138)")
+
+st.sidebar.markdown("""## Referências: 
+* https://github.com/ViniViniAntunes/Corretor_Ortografico_NLP
+* https://towardsdatascience.com/build-a-spelling-corrector-program-in-python-46bc427cf57f
+* https://huggingface.co/oliverguhr/spelling-correction-english-base?text=ze+shop+is+cloed+due+to+covid+19
+""")
 
 ##### INÍCIO APP.
 st.title('SpellingNW :memo:')
@@ -66,9 +72,9 @@ qtd_caracter_corpus = len(conteudo_treino)
 qtd_palavra_corpus = len(conteudo_tokens)
 qtd_vocabulario_corpus = len(set(conteudo_tokens))
 
-st.write("Quantidade de caracteres no corpus: [", qtd_caracter_corpus, "]")
-st.write("Quantidade total de palvras no corpus: [", qtd_palavra_corpus, "]")
-st.write("Quantidade total de palvras unicas no corpus (vocabulário): [", qtd_vocabulario_corpus, "]")
+st.sidebar.write("Quantidade de caracteres no corpus: [", qtd_caracter_corpus, "]")
+st.sidebar.write("Quantidade total de palvras no corpus: [", qtd_palavra_corpus, "]")
+st.sidebar.write("Quantidade total de palvras unicas no corpus (vocabulário): [", qtd_vocabulario_corpus, "]")
 
 ########################### MODEL 1 ###########################
 
