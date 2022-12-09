@@ -33,10 +33,11 @@ import nltk
 # pd.set_option('max_colwidth', 5000)
 
 # Sidbar menu
-st.sidebar.title("Menu")
+st.sidebar.title("Corretor Ortográfico utilizando notícias de jornal web")
 
-st.sidebar.write("By Rafhael Martins")
+st.sidebar.subheader("Web App feito por Rafhael de Oliveira Martins")
 st.sidebar.write("09 de Dezembro de 2022")
+st.sidebar.write("[![GitHub](https://img.shields.io/badge/-GitHub-333333?style=for-the-badge&logo=github)](https://github.com/rafhaelom)" " " "[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rafhael-de-oliveira-martins-3bab63138))
 
 ##### INÍCIO APP.
 st.title('SpellingNW :memo:')
