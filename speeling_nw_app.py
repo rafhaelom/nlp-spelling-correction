@@ -18,14 +18,14 @@ import re
 import pandas as pd
 import numpy as np
 
-import psycopg2
-import sqlalchemy  
-from sqlalchemy import create_engine
+# import psycopg2
+# import sqlalchemy  
+# from sqlalchemy import create_engine
 
-from textblob import Word
-from textblob import TextBlob
+# from textblob import Word
+# from textblob import TextBlob
 
-import nltk
+# import nltk
 #nltk.download('stopwords')
 #stopwords = nltk.corpus.stopwords.words('portuguese')
 
